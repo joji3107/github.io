@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;;
+    font-weight: 300;
+}
+header{
+    float: left;
+    width: 80%;
+    margin-left: 20%;
+    display: block;
+}
+.lateral{
+    width: 20%;
+    float: left;
+    margin: 0;
+    position: fixed;
+    display: block;
+    background-color: chocolate;
+    height: 100%;
+}
+html{
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+body{
+    background-color: burlywood;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.lateral img{
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    background-color: chocolate;
+    margin: 0;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+.latnav {
+    text-align: left;
+    word-break: break-all;
+    width: 100%;
+    color: black;
+    margin: 0;
+}
+.latnav li a{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    font-style: italic;
+    font-size: larger;
+    display: block;
+}
+.latnav li:hover{
+    background-color: burlywood;
+}
+.latnav li a:hover{
+    background-color: burlywood;
+}
+.latnav li {
+    list-style: none;
+    width: 100%;
+}
+.contenido{
+    float: right;
+    max-width: 80%;
+    padding-left: 5px;
+    margin: 0;
+    display: block;
+    height: 92%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.contenido pre{
+    word-break: break-all;
+    margin: 0;
+}
+h2 {
+    margin: 5px 0 5px 2px;
+    font-style: italic;
+    font-weight: bold;
+}
+span {
+    font-style: normal;
+    font-weight: 300;
+    font-size:20px ;
+}
+table th{
+    text-align: left;
+    font-weight: bold;
+}
+td { 
+    padding-left: 10px;
+    text-align: left;
+}
+.ulconocimientos{
+    text-align: left;
+    margin: 0;
+    padding-left: 20px;
+}
+.subtitulos {
+    border-top: 1px black solid;
+}
+#change {
+    max-width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400;1,700&display=swap');
+
+td, th, span, .latnav, ul {
+    font-size: 18px;
+}
+
+/*#tabla1 th, #tabla2 th{
+    display: block;
+}
+#tablas3 {
+    display: none;
+}
+*/

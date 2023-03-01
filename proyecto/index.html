@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Integrador Argentina Programa 4.0</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/dd64305d72.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="perfil.png">
+</head>
+<body>
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>
+    <section class="lateral">
+        <img src="perfil.png" title="foto de perfil">
+        <nav class="latnav">
+            <li><a href="index.html#presentacion">Presentación</a></li>
+            <li><a href="index.html#datos_personales">Datos personales</a></li>
+            <li><a href="index.html#estudios">Estudios</a></li>
+            <li><a href="index.html#conocimientos">Conocimientos</a></li>
+            <li><a href="index.html#experiencia">Experiencia</a></li>
+        </nav>
+        <button id="change" onclick="cambio()" ondblclick="cambio2()">Click y doble Click</button>
+ <!--       <button id="esconder" onclick="hide()">esconder</button>-->
+    </section>
+    
+    <div class="contenido">
+        <h2 id="presentacion" class="subtitulos">Presentación<h2>
+            <span>
+    Mi nombre es Jordán Fiorotto. Tengo 28 años. Nacido en Paraná, Entre Ríos.
+    Tengo experiencia en el ámbito tecnológico desempeñandome como reparador de PC y Notebook y me entusiasma aprender y me gustaría poder finalizar correctamente el curso de Argentina Programa 4.0.
+    Soy una persona sociable y como algunos me han descripto "me doy maña". Buscaré soluciones a problemas que encuentre en mi camino, y si buscando no las encuentro, las crearé.
+            </span>
+        <h2 class="subtitulos" id="datos_personales">Datos personales</h2>
+        <table>
+            <tr>
+                <th>Nombre y Apellido</th>
+                <td>Jordán Fiorotto</td>
+            </tr>
+            <tr>
+                <th>Fecha de Nacimiento</th>
+                <td>31 de julio de 1994</td>
+            </tr>
+            <tr>
+                <th>Dirección</th>
+                <td>Calle publica 5</td>
+            </tr>
+            <tr>
+                <th>Localidad</th>
+                <td>Seguí, Entre Ríos</td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td><a href="mailto:jordanfiorotto@gmail.com" title="enviar correo">jordanfiorotto@gmail.com</a></td>
+            </tr>
+            <tr>
+                <th>Teléfono</th>
+                <td>0343-155XXXXXX</td>
+            </tr>
+            <tr>
+                <th>Instagram</th>
+                <td><a href="https://instagram.com/jordanfiorotto?igshid=ZDdkNTZiNTM=" title="ir a instagram">@jordanfiorotto</td>
+            </tr>
+        </table>
+        <h2 class="subtitulos" id="estudios">Estudios</h2>
+        <table id="tabla1" class="estudios">
+            <tr>
+                <th>2023-actualidad</th>
+                <td>Curso Argentina Programa 4.0</td>
+            </tr>
+            <tr>
+                <th>2020</th>
+                <td>Curso de reparación de PC y Notebook de Comunidad Reparando</td> 
+            <tr>
+                <th>2018</th>
+                <td>Curso de Auxiliar veterinario en ITTE</td>
+            </tr>
+            <tr>
+                <th>2014-2017</th>
+                <td>Universitario incompleto Licenciatura en Biología en UADER</td>
+            </tr>
+            <tr>
+                <th>2007-2012</th>
+                <td>Secundaria completa Escuela N° 16 "Del Centenario"</td>
+            </tr>
+        </table>
+        <h2 class="subtitulos" id="conocimientos">Conocimientos</h2>
+        <ul class="ulconocimientos">
+            <li>Inglés básico</li>
+            <li>Reparación de PC y Notebook</li>
+            <li>Office básico</li>
+            <li>Manejo de Estación Total</li>
+            <li>Autocad para planos de agrimensura</li>
+        </ul>
+        <h2 class="subtitulos" id="experiencia">Experiencia</h2>
+        <table class="experiencia">
+            <tr>
+                <th>2022-Actualidad</th>
+                <td>Reparación de PC y notebook</td>
+            </tr>
+            <tr>
+                <th>2022-Actualidad</th>
+                <td>Trabajo de campo y gabinete en Estudio de Agrimensura del Ing XX XX</td>
+            </tr>
+            <tr>
+                <th>2019-2022</th>
+                <td>Atención al cliente en minimercado</td>
+            </tr>
+            <tr>
+                <th>2016-2019</th>
+                <td>Atención al cliente en autoservicio</td>
+            </tr>
+            <tr>
+                <th>2016</th>
+                <td>Repartidor en Panificadora</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
